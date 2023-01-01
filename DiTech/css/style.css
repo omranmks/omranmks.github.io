@@ -1,137 +1,675 @@
-html{
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     font-size: 1rem;
     font-family: 'Nunito', sans-serif;
+    overflow: overlay;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Kanit', sans-serif;
 }
 
+a:focus,
+button:focus,
+input:hover {
+    box-shadow: none;
+}
+
 /*The Header Style*/
-.headerContainer{
+.headerContainer {
     transition: background-color 0.4s;
 }
-.headerContainer img{
-    background-color: aqua;
-    width: 1rem;
-    height:1rem;
-}
+
 .headerContainer nav a {
-    color: #D1ECFC;
-    text-decoration: none;
-    padding: 0.3rem;
-    background-color: #d1ecfc00;
-    transition: 
+    transition:
         color 0.3s,
         background-color 0.3s,
         border-radius 0.7s;
 }
-.headerContainer nav a:hover{
+
+.headerContainer nav a:hover {
     border-radius: 1rem;
     background-color: #D1ECFC;
     color: #1B2947;
 }
 
 /*The Home Style*/
-.homeSectionContainer h2{
+.homeSectionContainer h1 {
+    color: #D1ECFC;
+    margin-bottom: 0.5rem;
+}
+
+.homeSectionContainer h2 {
     color: #D1ECFC;
     padding: 0.5rem;
     font-size: 0.5em;
 }
-.homeSectionContainer h1{
-    color: #D1ECFC;
 
-}
-.homeSectionContainer button{
-    margin: 1.5rem 0.5rem;
-    padding: 0.3rem;
-    width: 4rem;
+.homeSectionContainer a {
+    margin: 0.5rem;
+    padding: 0.4rem;
     font-size: 0.5em;
+    width: 3rem;
     background-color: #1467B1;
     color: #D1ECFC;
-    border: none;
+    text-decoration: none;
     transition:
         color 0.5s,
         background-color 0.5s;
 }
-.homeSectionContainer button:hover{
+
+.homeSectionContainer a:hover {
     background-color: #D1ECFC;
     color: #1467B1;
 }
-.homeSectionContainer .background{
-    animation: slider infinite;
-    animation-duration: 20s;
-}
 
 /*The Work Style*/
-.workSectionContainer h1{
+.workSectionContainer h1 {
     font-size: 1.2em;
     padding: 0.3rem;
     color: #1467B1;
 }
-.workSectionContainer h2{
+
+.workSectionContainer h2 {
     position: relative;
     padding: 0.3rem;
     color: #151D2D;
 }
-.workSectionContainer h3{
+
+.workSectionContainer h3 {
     position: relative;
     padding: 0.2rem;
     margin-bottom: 0.3rem;
     color: #151D2D;
 }
-.workSectionContainer h2:after{
+
+.workSectionContainer h2:after {
     content: "";
     display: block;
     position: absolute;
-    height:0.01rem;
-    width: 6rem;
+    height: 0.01rem;
+    width: 4rem;
     left: 50%;
     bottom: -0.1rem;
     transform: translate(-50%);
     background-color: #151d2d7d;
 }
-.workSectionContainer h3:after{
+
+.workSectionContainer h3:after {
     content: "";
     display: block;
     position: absolute;
-    height:0.01rem;
+    height: 0.01rem;
     width: 3rem;
     left: 50%;
     bottom: -0.01rem;
     transform: translate(-50%);
     background-color: #151d2d7d;
 }
-.workSectionContainer p{
+
+.workSectionContainer p {
     font-size: 0.75em;
 }
-.workSectionContainer .textBlock{
+
+.workSectionContainer .textBlock {
     transition: box-shadow 0.3s;
     border-radius: 0.3rem;
 }
-.workSectionContainer .textBlock:hover,:focus{
+
+.workSectionContainer .textBlock:hover,
+:focus {
     box-shadow: 0rem 0rem 0.1rem 0.1rem #b7b7b797;
 }
 
 /*The Info Section*/
-.infoSectionContainer{
+.infoSectionContainer {
+    background-color: #151D2D;
+    color: #ffffff;
+}
+
+.infoSectionContainer h1 {
+    font-size: 1.2em;
+    padding: 0.3rem;
+    color: #1467B1;
+}
+
+.infoSectionContainer h2 {
+    position: relative;
+    padding: 0.3rem;
+}
+
+.infoSectionContainer h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0.01rem;
+    width: 4rem;
+    left: 50%;
+    bottom: -0.1rem;
+    transform: translate(-50%);
+    background-color: #ffffff;
+}
+
+.infoSectionContainer h3 {
+    font-size: 1em;
+    line-height: 0.9rem;
+}
+
+.infoSectionContainer ul {
+    position: relative;
+    font-size: 0.7em;
+    height: 2rem;
+
+}
+
+.infoSectionContainer ul:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0.01rem;
+    width: 15rem;
+    /*this have multi media quaries*/
+    left: 50%;
+    bottom: 0.01rem;
+    transform: translate(-50%);
+    background-color: #ffffff;
+    margin: 0rem 0rem 0.2rem 0rem;
+}
+
+.infoSectionContainer li {
+    display: inline-block;
+    margin: 0.7rem;
+    text-align: left;
+    cursor: pointer;
+    transition:
+        color 0.3s,
+        opacity 0.5s,
+        transform 0.5s;
+}
+
+.infoSectionContainer li:hover {
+    color: #1467B1;
+}
+
+.infoSectionContainer p {
+    font-size: 0.8em;
+    line-height: 0.6rem;
+    transition: opacity 0.3s;
+}
+
+
+/*The Team Style*/
+
+.teamSectionContainer h1 {
+    font-size: 1.2em;
+    padding: 0.3rem;
+    color: #1467B1;
+}
+
+.teamSectionContainer h2 {
+    position: relative;
+    padding: 0.3rem;
+}
+
+.teamSectionContainer h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0.01rem;
+    width: 4rem;
+    left: 50%;
+    bottom: -0.1rem;
+    transform: translate(-50%);
+    background-color: #151d2d;
+}
+
+.flipCard {
+    background-color: transparent;
+    width: 6rem;
+    height: 6rem;
+    margin: 0.5rem;
+}
+
+.flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    box-shadow: 0rem 0.1rem 0.2rem 0.05rem #00000097;
+    border-radius: 0.5rem;
+}
+
+.flipCard:hover .flipCardInner {
+    transform: rotateY(180deg);
+}
+
+.flipCardFace,
+.flipCardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flipCardBack {
+    transform: rotateY(180deg);
+    background-color: #151D2D;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.imgCard {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.flipCardBack>h3 {
+    margin-top: 1.75rem;
+    color: #ffffff;
+    font-size: 0.6em;
+}
+
+.flipCardBack>p {
+    position: relative;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    font-size: 0.4em;
+}
+
+.flipCardBack>p:after {
+    content: "";
+    position: absolute;
+    height: 0.01rem;
+    width: 4rem;
+    background-color: #ffffff;
+    left: 50%;
+    bottom: -0.6rem;
+    transform: translate(-50%);
+}
+
+.flipCardBack>.socialMedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8rem;
+}
+
+.socialMedia>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1468b100;
+    border-radius: 100%;
+    width: 1.2rem;
+    height: 1.2rem;
+    transition: background-color 0.3s;
+}
+
+.socialMedia>a:hover {
+    background-color: #1468b1;
+}
+
+.socialMedia>a>img {
+    object-fit: scale-down;
+}
+
+/*The Gallery Style*/
+.gallerySectionContainer {
+    background-color: #151D2D;
+    color: #ffffff;
+}
+
+.gallerySectionContainer h1 {
+    font-size: 1.2em;
+    padding: 0.3rem;
+    color: #1467B1;
+}
+
+.gallerySectionContainer h2 {
+    position: relative;
+    padding: 0.3rem;
+}
+
+.gallerySectionContainer h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0.01rem;
+    width: 4rem;
+    left: 50%;
+    bottom: -0.1rem;
+    transform: translate(-50%);
+    background-color: #ffffff;
+}
+
+.galleryNavigator {
+    background-color: #ffffff;
+    color: #151D2D;
+    border-radius: 0.5rem;
+    font-size: 0.5em;
+}
+
+.galleryNavigator label {
+    cursor: pointer;
+    padding: 0.5rem;
+    transition:
+        color 0.5s,
+        background-color 0.5s;
+}
+
+#firstLabel {
+    border-radius: 0.44rem 0rem 0rem 0.44rem;
+}
+
+#lastLabel {
+    border-radius: 0rem 0.44rem 0.44rem 0rem;
+}
+
+.galleryNavigator label:hover {
+    background-color: #151D2D;
+    color: #D1ECFC;
+}
+
+.galleryImagesContainer .pic {
+    border-radius: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.galleryImagesContainer img {
+    border-radius: 0.5rem;
+}
+
+
+
+
+
+/*The Price Style*/
+
+.pricingSectionContainer h1 {
+    font-size: 1.2em;
+    padding: 0.3rem;
+    color: #1467B1;
+}
+
+.pricingSectionContainer>section>h2 {
+    position: relative;
+    padding: 0.3rem;
+}
+
+.pricingSectionContainer>section>h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0.01rem;
+    width: 4rem;
+    left: 50%;
+    bottom: -0.1rem;
+    transform: translate(-50%);
+    background-color: #151d2d;
+}
+
+.pricningContainer {
+    margin-top: 1rem;
+}
+
+.pricing h3 {
+    font-size: 0.75em;
+    padding: 0rem 0.5rem 0.5rem 0.5rem;
+    line-height: 0.9rem;
+}
+
+.bigger {
+    font-size: 2.5em;
+
+}
+
+.pricing {
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.2rem 0.05rem #6d6d6d97;
+}
+
+.pricing p {
+    font-size: 0.75em;
+    line-height: 1rem;
+}
+
+.pricing button {
+    font-weight: bold;
+    font-size: 0.75em;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    border: none;
+    color: #D1ECFC;
+    background-color: #151D2D;
+    transition:
+        color 0.3s,
+        background-color 0.3s,
+        box-shadow 0.3s;
+}
+
+.pricing button:hover {
+    color: #FFFFFF;
+    background-color: #1467B1;
+    box-shadow: 0rem 0rem 0.5rem 0rem #8f8f8f;
+}
+
+/*The Contacts Style*/
+.contactsSectionContainer h1 {
+    font-size: 1.2em;
+    padding: 0.3rem;
+    color: #1467B1;
+}
+
+.contactsSectionContainer h2 {
+    position: relative;
+    padding: 0.3rem;
+    color: #ffffff;
+}
+
+.contactsSectionContainer h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0.01rem;
+    width: 4rem;
+    left: 50%;
+    bottom: -0.1rem;
+    transform: translate(-50%);
+    background-color: #ffffff;
+}
+
+.contactInfo h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3em;
+}
+
+.contactFomr input,
+textarea {
+    font-size: 0.9em;
+}
+
+.contactFomr input[type=submit] {
+    background-color: #1467B1;
+    color: #ffffff;
+    transition:
+        background-color 0.3s;
+}
+
+.contactFomr input[type=submit]:hover {
     background-color: #151D2D;
 }
 
 
 
+/*The Footer Style*/
+.footerContainer {
+    background-color: #1B2947;
+    color: #ffffff;
+}
+
+.socialMediaContainer a {
+    transition:
+        background-color 0.3s,
+        box-shadow 0.6s;
+}
+
+.socialMediaContainer a:hover {
+    background-color: #1467B1;
+    box-shadow: 0rem 0rem 0.2rem 0.1rem rgba(255, 255, 255, 0.188);
+}
 
 
 
+/*Scroll*/
+:root {
+    scrollbar-color: rgb(208, 208, 208) rgb(46, 54, 69);
+    scrollbar-width: thin;
+}
 
+::-webkit-scrollbar {
+    width: 5px;
+}
 
-@keyframes slider {
-    0%,10%,12%,14%,16%,18%,20%,30%,40%,100%{
-        background-image: url("../images/tech.jpg");  
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(60, 60, 60);
+}
+
+@media screen and (min-width:1200px) and (max-width: 1500px) {
+    .infoSectionContainer ul:after {
+        width: 12rem;
+        /*this have multi media quaries*/
     }
-    50%,52%,54%,56%,58%,60%,70%,80%,90%{
-        background-image: url("../images/1.jpg");   
+
+    .flipCard {
+        width: 4.5rem;
+        height: 4.5rem;
     }
-  }
+
+    .imgCard {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .flipCardBack>h3 {
+        margin-top: 1rem;
+        font-size: 0.4em;
+    }
+
+    .flipCardBack>p {
+        margin-top: 0.2rem;
+        font-size: 0.3em;
+    }
+
+    .flipCardBack>p:after {
+        height: 0.01rem;
+        width: 2rem;
+        bottom: -0.6rem;
+    }
+
+    .flipCardBack>.socialMedia {
+        margin-top: 1rem;
+    }
+
+    .socialMedia>a {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    .socialMedia>a:hover {
+        background-color: #1468b1;
+    }
+
+    .socialMedia>a>img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1375px) {
+    .infoSectionContainer ul:after {
+        width: 10rem;
+        /*this have multi media quaries*/
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1275px) {
+    .infoSectionContainer ul:after {
+        width: 8rem;
+        /*this have multi media quaries*/
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1200px) {
+    .socialMedia>a>img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .galleryNavigator label {
+        padding: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .socialMedia>a>img {
+        width: 1rem;
+        height: 1rem;
+    }
+    .infoSectionContainer ul:after {
+        width: 8rem;
+    }
+    .flipCard {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .imgCard {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .flipCardBack>h3 {
+        margin-top: 2rem;
+        font-size: 0.8em;
+    }
+
+    .flipCardBack>p {
+        margin-top: 0.2rem;
+        font-size: 0.7em;
+    }
+
+    .flipCardBack>p:after {
+        height: 0.01rem;
+        width: 2rem;
+        bottom: -0.6rem;
+    }
+
+    .flipCardBack>.socialMedia {
+        margin-top: 2rem;
+    }
+    .socialMedia>a {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    #firstLabel {
+        padding: 0.75rem;
+        border-radius: 0.44rem 0rem 0rem 0.44rem;
+    }
+}

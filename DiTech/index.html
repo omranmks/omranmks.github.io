@@ -3,7 +3,7 @@
 
 <head>
     <title>DiTech</title>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
 
     <script src="js/fucnctions.js"></script>
     <link rel="stylesheet" href="css/rest.css">
@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="css/pageLayout.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/addStyles.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Nunito:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -25,15 +25,17 @@
         <div class="headerContainer">
 
             <img src="" alt="">
+            <div class="burgerButton closeBurgerMenu" onclick="clickBugerMenu()"></div>
             <nav>
-                <a href="#homeSection">HOME</a>
-                <a href="#workSection">WORK</a>
-                <a href="#infoSection">ABOUT</a>
-                <a href="#teamSection">TEAM</a>
-                <a href="#gallerySection">PORTFOLIO</a>
-                <a href="#pricingSection">PRICING</a>
-                <a href="#contactSection">CONTACT</a>
+                <a href="#homeSection" onclick="closeWindow()">HOME</a>
+                <a href="#workSection" onclick="closeWindow()">WORK</a>
+                <a href="#infoSection" onclick="closeWindow()">ABOUT</a>
+                <a href="#teamSection" onclick="closeWindow()">TEAM</a>
+                <a href="#gallerySection" onclick="closeWindow()">PORTFOLIO</a>
+                <a href="#pricingSection" onclick="closeWindow()">PRICING</a>
+                <a href="#contactSection" onclick="closeWindow()">CONTACT</a>
             </nav>
+            
         </div>
     </header>
 
@@ -47,11 +49,16 @@
                     <div class="textOnBackground">
                         <h2>WEB DESIGN / WEB DEVELOPMENT / SOCIAL MEDIA</h2>
                         <h1>DIGITAL TECHNOLOGY<br>TEAM</h1>
-                        <a href=""><button>What we do</button></a>
-                        <a href=""><button>Talk to us</button></a>
+
+                        <div class="buttonContainer"><a href="">What we do</a>
+                            <a href="">Talk to us</a>
+                        </div>
                     </div>
                 </div>
-                <div class="background"></div>
+                <div class="background">
+                    <div class="backgroundImage1 fadeIn"></div>
+                    <div class="backgroundImage2 fadeOut"></div>
+                </div>
             </section>
         </div>
 
@@ -127,15 +134,16 @@
                         <img src="images/tech.jpg" alt="">
                     </div>
                     <div class="textInfo">
-                        <h3>DIGITAL TEAM<br>Best Design Agency from California</h3>
+                        <h3>Digital Technology Team<br>Best Design Agency from California</h3>
                         <ul>
-                            <li>Desgin</li>
-                            <li>Mobile</li>
-                            <li>Social</li>
+                            <li class="selected" onclick="changeContent('checkDesgin',this)">Desgin</li>
+                            <li onclick="changeContent('checkMobile',this)">Mobile</li>
+                            <li onclick="changeContent('checkSocial',this)">Social</li>
                         </ul>
-                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            dolore eu fugiat nulla pariatur. Sed id est tincidunt,
-                            iaculis nulla vel, sodales metus. Morbi interdum accumsan
+                        <p class="checkContent checkDesgin">Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse
+                            dolore eu fugiat nulla pariatur. Sed id est tincidunt,iaculis
+                            nulla vel, sodales metus. Morbi interdum accumsan
                             augue, in accumsan neque lacinia sed. Fusce cursus eu ligula ut gravida.
                             Lorem ipsum dolor sit amet,consectetuer
                             dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna
@@ -151,35 +159,139 @@
                 <h1>03</h1>
                 <h2>Our Team</h2>
                 <div class="teamImagesContainer">
-                    <img src="images/tech.jpg" alt="">
-                    <img src="images/tech.jpg" alt="">
-                    <img src="images/tech.jpg" alt="">
-                    <img src="images/tech.jpg" alt="">
+                    <div class="flipCard">
+                        <div class="flipCardInner">
+                            <div class="flipCardFace">
+                                <img class="imgCard" src="images/tech.jpg" alt="">
+                            </div>
+                            <div class="flipCardBack">
+                                <h3>Omran Alsamkari</h3>
+                                <p>Developer</p>
+                                <div class="socialMedia">
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/facebook-new.png"
+                                            alt=""></a>
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/twitter--v2.png"
+                                            alt=""></a>
+                                    <a href=""><img
+                                            src="https://img.icons8.com/material/40/ffffff/instagram-new--v1.png"
+                                            alt=""></a>
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/linkedin--v1.png"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flipCard">
+                        <div class="flipCardInner">
+                            <div class="flipCardFace">
+                                <img class="imgCard" src="images/tech.jpg" alt="">
+                            </div>
+                            <div class="flipCardBack">
+                                <h3>Omran Alsamkari</h3>
+                                <p>Developer</p>
+                                <div class="socialMedia">
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/facebook-new.png"
+                                            alt=""></a>
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/twitter--v2.png"
+                                            alt=""></a>
+                                    <a href=""><img
+                                            src="https://img.icons8.com/material/40/ffffff/instagram-new--v1.png"
+                                            alt=""></a>
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/linkedin--v1.png"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flipCard">
+                        <div class="flipCardInner">
+                            <div class="flipCardFace">
+                                <img class="imgCard" src="images/tech.jpg" alt="">
+                            </div>
+                            <div class="flipCardBack">
+                                <h3>Omran Alsamkari</h3>
+                                <p>Developer</p>
+                                <div class="socialMedia">
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/facebook-new.png"
+                                            alt=""></a>
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/twitter--v2.png"
+                                            alt=""></a>
+                                    <a href=""><img
+                                            src="https://img.icons8.com/material/40/ffffff/instagram-new--v1.png"
+                                            alt=""></a>
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/linkedin--v1.png"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flipCard">
+                        <div class="flipCardInner">
+                            <div class="flipCardFace">
+                                <img class="imgCard" src="images/tech.jpg" alt="">
+                            </div>
+                            <div class="flipCardBack">
+                                <h3>Omran Alsamkari</h3>
+                                <p>Developer</p>
+                                <div class="socialMedia">
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/facebook-new.png"
+                                            alt=""></a>
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/twitter--v2.png"
+                                            alt=""></a>
+                                    <a href=""><img
+                                            src="https://img.icons8.com/material/40/ffffff/instagram-new--v1.png"
+                                            alt=""></a>
+                                    <a href=""><img src="https://img.icons8.com/material/40/ffffff/linkedin--v1.png"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
 
-        <div class="gallerySection">
-        </div>
         <!--The Gallery Section-->
         <div class="gallerySectionContainer" id="gallerySection">
-            <h2>04</h2>
-            <h3>Our Gallery</h3>
+            <h1>04</h1>
+            <h2>Our Gallery</h2>
+            <input type="radio" name="photos" id="check1" checked>
+            <input type="radio" name="photos" id="check2">
+            <input type="radio" name="photos" id="check3">
+            <input type="radio" name="photos" id="check4">
+            <input type="radio" name="photos" id="check5">
             <div class="galleryNavigator">
-
+                <label for="check1" id="firstLabel">All</label>
+                <label for="check2">Ui Ux</label>
+                <label for="check3">Mobile App</label>
+                <label for="check4">Web Design</label>
+                <label for="check5" id="lastLabel">Social media</label>
             </div>
             <div class="galleryImagesContainer">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
-                <img src="images/tech.jpg" alt="">
+                <div class="pic uiux">
+                    <img src="images/tech.jpg" alt="">
+                </div>
+                <div class="pic uiux">
+                    <img src="images/1.jpg" alt="">
+                </div>
+                <div class="pic mobileApp">
+                    <img src="images/2.jpg" alt="">
+                </div>
+                <div class="pic webDesign">
+                    <img src="images/3.jpg" alt="">
+                </div>
+                <div class="pic socialmedia">
+                    <img src="images/4.jpg" alt="">
+                </div>
+                <div class="pic socialmedia">
+                    <img src="images/5.jpg" alt="">
+                </div>
+                <div class="pic webDesign">
+                    <img src="images/6.jpg" alt="">
+                </div>
+                <div class="pic socialmedia">
+                    <img src="images/7.jpg" alt="">
+                </div>
             </div>
 
         </div>
@@ -190,37 +302,31 @@
                 <h2>Our Pricing</h2>
                 <div class="pricningContainer">
                     <div class="pricing">
-                        <img src="" alt="">
-                        <h3>BASIC</h3>
-                        <h3>$150</h3>
-                        <h3>per year</h3>
+                        <img src="https://img.icons8.com/material-rounded/50/151D2D/cloud-user.png" alt="">
+                        <h3>BASIC<br><span class="bigger">$150</span> per year</h3>
                         <p>100 GB Cloud Storage<br>
                             5 Pro Websites<br>
                             10 Secured Emails<br>
                             24-hour Support</p>
-                        <button>GET IT NOW</button>
+                        <button>BUY NOW</button>
                     </div>
                     <div class="pricing">
-                        <img src="" alt="">
-                        <h3>BASIC</h3>
-                        <h3>$150</h3>
-                        <h3>per year</h3>
-                        <p>100 GB Cloud Storage<br>
-                            5 Pro Websites<br>
-                            10 Secured Emails<br>
-                            24-hour Support</p>
-                        <button>GET IT NOW</button>
+                        <img src="https://img.icons8.com/material-rounded/50/151D2D/business.png" alt="">
+                        <h3>BUSINESS<br><span class="bigger">$250</span> per year</h3>
+                        <p>200 GB Cloud Storage<br>
+                            10 Pro Websites<br>
+                            20 Secured Emails<br>
+                            30-minutes Support</p>
+                        <button>BUY NOW</button>
                     </div>
                     <div class="pricing">
-                        <img src="images/tech.jpg" alt="">
-                        <h3>BASIC</h3>
-                        <h3>$150</h3>
-                        <h3>per year</h3>
-                        <p>100 GB Cloud Storage<br>
-                            5 Pro Websites<br>
-                            10 Secured Emails<br>
-                            24-hour Support</p>
-                        <button>GET IT NOW</button>
+                        <img src="https://img.icons8.com/ios-filled/50/151D2D/total-sales-1.png" alt="">
+                        <h3>Growth Bundle<br><span class="bigger">$400</span> per year</h3>
+                        <p>500 GB Cloud Storage<br>
+                            20 Pro Websites<br>
+                            50 Secured Emails<br>
+                            live Support</p>
+                        <button>BUY NOW</button>
                     </div>
                 </div>
             </section>
@@ -241,12 +347,12 @@
                                 qui officia deserunt mollit anim id.</p>
                         </div>
                         <div class="contactsSocialContainer">
-                            <div>
+                            <div class="infoEmail">
                                 <img src="images/tech.jpg" alt="">
                                 <h3>Email</h3>
                                 <p>test@gmail.com</p>
                             </div>
-                            <div>
+                            <div class="infoPhone">
                                 <img src="images/tech.jpg" alt="">
                                 <h3>Phone</h3>
                                 <p>+9639999999</p>
@@ -275,13 +381,14 @@
     <!--The Footer-->
     <footer>
         <div class="footerContainer">
-            <p>Copy Right Resevice 2022</p>
+            <p>&copy; Copy Right Resevice 2022</p>
             <div class="socialMediaContainer">
-                <a href=""><img src="images/tech.jpg" alt=""></a>
-                <a href=""><img src="images/tech.jpg" alt=""></a>
-                <a href=""><img src="images/tech.jpg" alt=""></a>
-                <a href=""><img src="images/tech.jpg" alt=""></a>
-        </div></div>
+                <a href=""><img src="https://img.icons8.com/material/40/ffffff/facebook-new.png" alt=""></a>
+                <a href=""><img src="https://img.icons8.com/material/40/ffffff/twitter--v2.png" alt=""></a>
+                <a href=""><img src="https://img.icons8.com/material/40/ffffff/instagram-new--v1.png" alt=""></a>
+                <a href=""><img src="https://img.icons8.com/material/40/ffffff/linkedin--v1.png" alt=""></a>
+            </div>
+        </div>
     </footer>
 
 </body>

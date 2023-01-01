@@ -1,3 +1,54 @@
-.headerScroll{
+.headerScroll {
     background-color: #1B2947;
+}
+
+.selected {
+    color: #1467B1;
+    font-weight: bold;
+    transform: scale(1.5);
+}
+
+.openBurgerMenu {
+    width: 0.8rem;
+    height: 0.1rem;
+    border-radius: 0.1rem;
+    background-color:transparent;
+    margin-right: 1rem;
+}
+.openBurgerMenu::before,
+.openBurgerMenu::after{
+    content: "";
+    position: absolute;
+    width: 0.8rem;
+    height: 0.1rem;
+    border-radius: 0.1rem;
+    background-color: #ffffff;
+}
+.openBurgerMenu::before{
+    transform: rotate(45deg);
+}
+.openBurgerMenu::after{
+    transform: rotate(-45deg);
+}
+.closeBurgerMenu {
+    width: 0.8rem;
+    height: 0.1rem;
+    border-radius: 0.1rem;
+    background-color: #ffffff;
+    margin-right: 1rem;
+}
+.closeBurgerMenu::before,
+.closeBurgerMenu::after{
+    content: "";
+        position: absolute;
+        width: 0.8rem;
+        height: 0.1rem;
+        border-radius: 0.1rem;
+        background-color: #ffffff;
+}
+.closeBurgerMenu::before{
+    transform: translateY(-8px);
+}
+.closeBurgerMenu::after{
+    transform: translateY(8px);
 }

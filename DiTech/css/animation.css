@@ -1,0 +1,30 @@
+.fadeIn{
+    animation: fadeIn 20s infinite;
+}
+
+.fadeOut{
+    animation: fadeOut 20s infinite;
+}
+
+@keyframes fadeIn{
+    0%,45%{
+        opacity: 0;
+    }
+    50%,95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes fadeOut{
+    0%,45%{
+        opacity: 1;
+    }
+    50%,95%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
