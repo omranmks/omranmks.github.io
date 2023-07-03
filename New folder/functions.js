@@ -1,6 +1,8 @@
 $(document).ready(function () {
     var pageIndex = 0;
     var layoutNum = 0;
+    alert($(document).height());
+    alert($(document).width());
 
     if($(document).height() / $(document).width() >= 1)
         $("html").css('font-size','2vh');
