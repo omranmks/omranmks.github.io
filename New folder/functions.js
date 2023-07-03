@@ -2,7 +2,7 @@ $(document).ready(function () {
     var pageIndex = 0;
     var layoutNum = 0;
 
-    if($(document).height() / $(document).width() >= 1.5)
+    if($(document).height() / $(document).width() >= 1)
         $("html").css('font-size','2vh');
 
     $("#NextContent").on("click", function () {
