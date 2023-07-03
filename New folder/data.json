@@ -1,0 +1,959 @@
+[
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #FF0000",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 1,
+        "pageLetter": "أَلِـف",
+        "firstShape": "",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "",
+                "third": ""
+            }
+        ],
+        "firstExampleEn": "",
+        "secondShape": "",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "",
+                "third": ""
+            }
+        ],
+        "secondExampleEn": "",
+        "thirdShape": "",
+        "thirdExampleAr": [
+            {
+                "first": "",
+                "second": "",
+                "third": ""
+            }
+        ],
+        "thirdExampleEn": ""
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #bdd7ee",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 2,
+        "pageLetter": "بَـا",
+        "firstShape": "بَـا",
+        "firstExampleAr": [
+            {
+                "first": "ثُـعْ",
+                "second": "ـبَـا",
+                "third": "ن"
+            }
+        ],
+        "firstExampleEn": "Snake",
+        "secondShape": "بَـي",
+        "secondExampleAr": [
+            {
+                "first": "كَ",
+                "second": "ـبِـي",
+                "third": "ـر"
+            }
+        ],
+        "secondExampleEn": "Old",
+        "thirdShape": "بَـو",
+        "thirdExampleAr": [
+            {
+                "first": "",
+                "second": "بُـو",
+                "third": "ق"
+            }
+        ],
+        "thirdExampleEn": "Horn"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #bdd7ee",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 3,
+        "pageLetter": "تَـا",
+        "firstShape": "تَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "تَـا",
+                "third": "ج"
+            }
+        ],
+        "firstExampleEn": "Crown",
+        "secondShape": "تِـي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "تِـي",
+                "third": "ـن"
+            }
+        ],
+        "secondExampleEn": "Fig",
+        "thirdShape": "تُـو",
+        "thirdExampleAr": [
+            {
+                "first": "",
+                "second": "تُـو",
+                "third": "نـا"
+            }
+        ],
+        "thirdExampleEn": "Tuna"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #bdd7ee",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 4,
+        "pageLetter": "ثَـا",
+        "firstShape": "ثَـا",
+        "firstExampleAr": [
+            {
+                "first": "تِـمْ",
+                "second": "ـثَـا",
+                "third": "ل"
+            }
+        ],
+        "firstExampleEn": "Statue",
+        "secondShape": "ثِـي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "ثِـي",
+                "third": "ـرَان"
+            }
+        ],
+        "secondExampleEn": "Bull",
+        "thirdShape": "ثُـو",
+        "thirdExampleAr": [
+            {
+                "first": "",
+                "second": "ثُـو",
+                "third": "م"
+            }
+        ],
+        "thirdExampleEn": "Garlic"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #ffe699",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 5,
+        "pageLetter": "جـِيـم",
+        "firstShape": "جَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "جَـا",
+                "third": "مِـع"
+            }
+        ],
+        "firstExampleEn": "Mosque",
+        "secondShape": "جِـي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "جِـي",
+                "third": "ـرَان"
+            }
+        ],
+        "secondExampleEn": "Neighbor",
+        "thirdShape": "جُـو",
+        "thirdExampleAr": [
+            {
+                "first": "نُ",
+                "second": "ـجُـو",
+                "third": "م"
+            }
+        ],
+        "thirdExampleEn": "Stars"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #ffe699",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 6,
+        "pageLetter": "حَـا",
+        "firstShape": "حَـا",
+        "firstExampleAr": [
+            {
+                "first": "لِ",
+                "second": "ـحَـا",
+                "third": "ف"
+            }
+        ],
+        "firstExampleEn": "Comforter",
+        "secondShape": "حِـي",
+        "secondExampleAr": [
+            {
+                "first": "نَ",
+                "second": "ـحِـي",
+                "third": "ـف"
+            }
+        ],
+        "secondExampleEn": "Thin",
+        "thirdShape": "حُـو",
+        "thirdExampleAr": [
+            {
+                "first": "",
+                "second": "حُـو",
+                "third": "ت"
+            }
+        ],
+        "thirdExampleEn": "Whale"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #ffe699",
+        "pageNumberColor": "#133459",
+        "pageNumber": 7,
+        "pageLetter": "خَـا",
+        "firstShape": "خَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "خَـا",
+                "third": "تَـم"
+            }
+        ],
+        "firstExampleEn": "Ring",
+        "secondShape": "خِـي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "خِـي",
+                "third": "ـطَـان"
+            }
+        ],
+        "secondExampleEn": "Threads",
+        "thirdShape": "خُـو",
+        "thirdExampleAr": [
+            {
+                "first": "صُ",
+                "second": "ـخُـو",
+                "third": "ر"
+            }
+        ],
+        "thirdExampleEn": "Rocks"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #f8ccad",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 8,
+        "pageLetter": "دَال",
+        "firstShape": "دَا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "دَا",
+                "third": "ر"
+            }
+        ],
+        "firstExampleEn": "Home",
+        "secondShape": "دِي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "دِي",
+                "third": "ـك"
+            }
+        ],
+        "secondExampleEn": "Cock",
+        "thirdShape": "دُو",
+        "thirdExampleAr": [
+            {
+                "first": "صَـنْ",
+                "second": "ـدُو",
+                "third": "ق"
+            }
+        ],
+        "thirdExampleEn": "Box"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #f8ccad",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 9,
+        "pageLetter": "ذَال",
+        "firstShape": "دَا",
+        "firstExampleAr": [
+            {
+                "first": "حِ",
+                "second": "ـذَا",
+                "third": "ء"
+            }
+        ],
+        "firstExampleEn": "Shoes",
+        "secondShape": "ذِي",
+        "secondExampleAr": [
+            {
+                "first": "مُ",
+                "second": "ـذِيـ",
+                "third": "ع"
+            }
+        ],
+        "secondExampleEn": "Announcer",
+        "thirdShape": "ذُو",
+        "thirdExampleAr": [
+            {
+                "first": "بُ",
+                "second": "ـذُو",
+                "third": "ر"
+            }
+        ],
+        "thirdExampleEn": "Seeds"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #bf910a",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 10,
+        "pageLetter": "رَا",
+        "firstShape": "رَا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "رَا",
+                "third": "كُـون"
+            }
+        ],
+        "firstExampleEn": "Raccoon",
+        "secondShape": "رِي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "رِي",
+                "third": "ـشَـة"
+            }
+        ],
+        "secondExampleEn": "Feather",
+        "thirdShape": "رُو",
+        "thirdExampleAr": [
+            {
+                "first": "حُ",
+                "second": "ـرُو",
+                "third": "ف"
+            }
+        ],
+        "thirdExampleEn": "Letters"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #bf910a",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 11,
+        "pageLetter": "زَاي",
+        "firstShape": "زَا",
+        "firstExampleAr": [
+            {
+                "first": "غَ",
+                "second": "ـزَا",
+                "third": "ل"
+            }
+        ],
+        "firstExampleEn": "Deer",
+        "secondShape": "زِي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "زِي",
+                "third": "ـنَـة"
+            }
+        ],
+        "secondExampleEn": "Decoration",
+        "thirdShape": "زُو",
+        "thirdExampleAr": [
+            {
+                "first": "حَـلَ",
+                "second": "ـزُو",
+                "third": "ن"
+            }
+        ],
+        "thirdExampleEn": "Snail"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #d6dce5",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 12,
+        "pageLetter": "سِـيـن",
+        "firstShape": "سَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "سَـا",
+                "third": "عَـة"
+            }
+        ],
+        "firstExampleEn": "Watch",
+        "secondShape": "سِـي",
+        "secondExampleAr": [
+            {
+                "first": "كُـرْ",
+                "second": "سِـي",
+                "third": ""
+            }
+        ],
+        "secondExampleEn": "Chair",
+        "thirdShape": "سُـو",
+        "thirdExampleAr": [
+            {
+                "first": "",
+                "second": "سُـو",
+                "third": "ر"
+            }
+        ],
+        "thirdExampleEn": "Fence"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #d6dce5",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 13,
+        "pageLetter": "شِـيـن",
+        "firstShape": "شَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "شَـا",
+                "third": "طِـئ"
+            }
+        ],
+        "firstExampleEn": "Beach",
+        "secondShape": "شِـي",
+        "secondExampleAr": [
+            {
+                "first": "طَـبَـا",
+                "second": "شِـي",
+                "third": "ـر"
+            }
+        ],
+        "secondExampleEn": "Chalk",
+        "thirdShape": "شُـو",
+        "thirdExampleAr": [
+            {
+                "first": "قُ",
+                "second": "ـشُـو",
+                "third": "ر"
+            }
+        ],
+        "thirdExampleEn": "Peel"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #2f5598",
+        "pageNumberColor": "#133459",
+        "pageNumber": 14,
+        "pageLetter": "صَـاد",
+        "firstShape": "صَا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "صَـا",
+                "third": "رُوخ"
+            }
+        ],
+        "firstExampleEn": "Rocket",
+        "secondShape": "صِي",
+        "secondExampleAr": [
+            {
+                "first": "رَ",
+                "second": "صِـي",
+                "third": "ـف"
+            }
+        ],
+        "secondExampleEn": "Sidewalk",
+        "thirdShape": "صُو",
+        "thirdExampleAr": [
+            {
+                "first": "",
+                "second": "صُـو",
+                "third": "رَة"
+            }
+        ],
+        "thirdExampleEn": "Picture"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #2f5598",
+        "pageNumberColor": "#133459",
+        "pageNumber": 15,
+        "pageLetter": "ضَـاد",
+        "firstShape": "ضَا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "ضَـا",
+                "third": "بِـط"
+            }
+        ],
+        "firstExampleEn": "Officer",
+        "secondShape": "ضِي",
+        "secondExampleAr": [
+            {
+                "first": "رَ",
+                "second": "ضِـي",
+                "third": "ـع"
+            }
+        ],
+        "secondExampleEn": "Infant",
+        "thirdShape": "ضُو",
+        "thirdExampleAr": [
+            {
+                "first": "وُ",
+                "second": "ضُـو",
+                "third": "ء"
+            }
+        ],
+        "thirdExampleEn": "Wudu"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #203863",
+        "pageNumberColor": "#133459",
+        "pageNumber": 16,
+        "pageLetter": "طَـا",
+        "firstShape": "طَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "طَـا",
+                "third": "ئِـرَة"
+            }
+        ],
+        "firstExampleEn": "Plane",
+        "secondShape": "طِـي",
+        "secondExampleAr": [
+            {
+                "first": "بَ",
+                "second": "ـطِـي",
+                "third": "ء"
+            }
+        ],
+        "secondExampleEn": "Slow",
+        "thirdShape": "طُـو",
+        "thirdExampleAr": [
+            {
+                "first": "فَ",
+                "second": "ـطُـو",
+                "third": "ر"
+            }
+        ],
+        "thirdExampleEn": "Breakfast"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #203863",
+        "pageNumberColor": "#133459",
+        "pageNumber": 17,
+        "pageLetter": "ظَـا",
+        "firstShape": "ظَـا",
+        "firstExampleAr": [
+            {
+                "first": "مِـنْ",
+                "second": "ـظَـا",
+                "third": "ر"
+            }
+        ],
+        "firstExampleEn": "Telescope",
+        "secondShape": "ظِـي",
+        "secondExampleAr": [
+            {
+                "first": "حَ",
+                "second": "ـظِـي",
+                "third": "ـرَة"
+            }
+        ],
+        "secondExampleEn": "Stable",
+        "thirdShape": "ظُـو",
+        "thirdExampleAr": [
+            {
+                "first": "مَـحْ",
+                "second": "ـظُـو",
+                "third": "ر"
+            }
+        ],
+        "thirdExampleEn": "Forbidden"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #afabab",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 18,
+        "pageLetter": "عَـيْـن",
+        "firstShape": "عَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "عَـا",
+                "third": "مِـل"
+            }
+        ],
+        "firstExampleEn": "Worker",
+        "secondShape": "عِـي",
+        "secondExampleAr": [
+            {
+                "first": "بَ",
+                "second": "ـعِـي",
+                "third": "ـد"
+            }
+        ],
+        "secondExampleEn": "Far",
+        "thirdShape": "عُـو",
+        "thirdExampleAr": [
+            {
+                "first": "بَ",
+                "second": "ـعُـو",
+                "third": "ضَـة"
+            }
+        ],
+        "thirdExampleEn": "Mosquito"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #afabab",
+        "pageNumberColor": "#133459",
+        "pageNumber": 19,
+        "pageLetter": "غَـيْـن",
+        "firstShape": "غَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "غَـا",
+                "third": "بَـة"
+            }
+        ],
+        "firstExampleEn": "Forrest",
+        "secondShape": "غِـي",
+        "secondExampleAr": [
+            {
+                "first": "رَ",
+                "second": "غِـي",
+                "third": "ـف"
+            }
+        ],
+        "secondExampleEn": "Bread",
+        "thirdShape": "غُـو",
+        "thirdExampleAr": [
+            {
+                "first": "يَ",
+                "second": "ـغُـو",
+                "third": "ص"
+            }
+        ],
+        "thirdExampleEn": "Dive"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #f7ad7c",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 20,
+        "pageLetter": "فَـا",
+        "firstShape": "فَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "فَـا",
+                "third": "رِس"
+            }
+        ],
+        "firstExampleEn": "knight",
+        "secondShape": "فِـي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "فِـي",
+                "third": "ـل"
+            }
+        ],
+        "secondExampleEn": "Elephant",
+        "thirdShape": "فُـو",
+        "thirdExampleAr": [
+            {
+                "first": "سَـنْ",
+                "second": "ـفُـو",
+                "third": "ر"
+            }
+        ],
+        "thirdExampleEn": "Smurfs"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #f7ad7c",
+        "pageNumberColor": "#133459",
+        "pageNumber": 21,
+        "pageLetter": "قَـاف",
+        "firstShape": "قَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "قَـا",
+                "third": "فِـلَـة"
+            }
+        ],
+        "firstExampleEn": "knight",
+        "secondShape": "قِـي",
+        "secondExampleAr": [
+            {
+                "first": "حَ",
+                "second": "قِـي",
+                "third": "ـبَـة"
+            }
+        ],
+        "secondExampleEn": "Bag",
+        "thirdShape": "قُـو",
+        "thirdExampleAr": [
+            {
+                "first": "يَ",
+                "second": "ـقُـو",
+                "third": "د"
+            }
+        ],
+        "thirdExampleEn": "Driver"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #673a8e",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 22,
+        "pageLetter": "كَـاف",
+        "firstShape": "كَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "كَـا",
+                "third": "تِـب"
+            }
+        ],
+        "firstExampleEn": "Writer",
+        "secondShape": "كِـي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "كِـي",
+                "third": "ـوِي"
+            }
+        ],
+        "secondExampleEn": "Kiwi",
+        "thirdShape": "كُـو",
+        "thirdExampleAr": [
+            {
+                "first": "رُ",
+                "second": "كُـو",
+                "third": "ع"
+            }
+        ],
+        "thirdExampleEn": "Bow"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #27ade4",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 23,
+        "pageLetter": "لَام",
+        "firstShape": "لَا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "لَا",
+                "third": "عِـب"
+            }
+        ],
+        "firstExampleEn": "Player",
+        "secondShape": "لِـي",
+        "secondExampleAr": [
+            {
+                "first": "حَ",
+                "second": "لِـي",
+                "third": "ـب"
+            }
+        ],
+        "secondExampleEn": "Milk",
+        "thirdShape": "لُـو",
+        "thirdExampleAr": [
+            {
+                "first": "قُ",
+                "second": "ـلُـو",
+                "third": "ب"
+            }
+        ],
+        "thirdExampleEn": "Hearts"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #29a951",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 24,
+        "pageLetter": "مِـيـم",
+        "firstShape": "مَـا",
+        "firstExampleAr": [
+            {
+                "first": "ثِ",
+                "second": "ـمَـا",
+                "third": "ر"
+            }
+        ],
+        "firstExampleEn": "Fruit",
+        "secondShape": "مِـي",
+        "secondExampleAr": [
+            {
+                "first": "قَ",
+                "second": "ـمِـي",
+                "third": "ـص"
+            }
+        ],
+        "secondExampleEn": "Shirt",
+        "thirdShape": "مُـو",
+        "thirdExampleAr": [
+            {
+                "first": "لَـيْ",
+                "second": "ـمُـو",
+                "third": "ن"
+            }
+        ],
+        "thirdExampleEn": "Lemon"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #385725",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 25,
+        "pageLetter": "نُـون",
+        "firstShape": "نَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "نَـا",
+                "third": "فِـذَة"
+            }
+        ],
+        "firstExampleEn": "Window",
+        "secondShape": "نِـي",
+        "secondExampleAr": [
+            {
+                "first": "أَ",
+                "second": "نِـي",
+                "third": "ـق"
+            }
+        ],
+        "secondExampleEn": "Chic",
+        "thirdShape": "نُـو",
+        "thirdExampleAr": [
+            {
+                "first": "جُ",
+                "second": "ـنُـو",
+                "third": "د"
+            }
+        ],
+        "thirdExampleEn": "Soldiers"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #fab613",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 26,
+        "pageLetter": "هَـا",
+        "firstShape": "هَـا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "هَـا",
+                "third": "تِـف"
+            }
+        ],
+        "firstExampleEn": "Telephone",
+        "secondShape": "هِـي",
+        "secondExampleAr": [
+            {
+                "first": "بَ",
+                "second": "ـهِـي",
+                "third": "ـمَـة"
+            }
+        ],
+        "secondExampleEn": "Animal",
+        "thirdShape": "هُـو",
+        "thirdExampleAr": [
+            {
+                "first": "تَـطْ",
+                "second": "هُـو",
+                "third": ""
+            }
+        ],
+        "thirdExampleEn": "Cook"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #b6db9a",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 27,
+        "pageLetter": "وَاو",
+        "firstShape": "وَا",
+        "firstExampleAr": [
+            {
+                "first": "دَ",
+                "second": "وَا",
+                "third": "ء"
+            }
+        ],
+        "firstExampleEn": "Medicine",
+        "secondShape": "وِي",
+        "secondExampleAr": [
+            {
+                "first": "تَـلْ",
+                "second": "ـوِي",
+                "third": "ـن"
+            }
+        ],
+        "secondExampleEn": "Colors",
+        "thirdShape": "وُو",
+        "thirdExampleAr": [
+            {
+                "first": "طَـا",
+                "second": "وُو",
+                "third": "س"
+            }
+        ],
+        "thirdExampleEn": "Peacock"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #ffec00",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 28,
+        "pageLetter": "يَـا",
+        "firstShape": "يَـا",
+        "firstExampleAr": [
+            {
+                "first": "مِ",
+                "second": "ـيَـا",
+                "third": "ه"
+            }
+        ],
+        "firstExampleEn": "Water",
+        "secondShape": "يِـي",
+        "secondExampleAr": [
+            {
+                "first": "تَـشْ",
+                "second": "ـيِـي",
+                "third": "ـد"
+            }
+        ],
+        "secondExampleEn": "Construction",
+        "thirdShape": "يُـو",
+        "thirdExampleAr": [
+            {
+                "first": "طُ",
+                "second": "ـيُـو",
+                "third": "ر"
+            }
+        ],
+        "thirdExampleEn": "Birds"
+    },
+    {
+        "borderColor": "inset 0px 0px 0px 1rem #cbc9e6",
+        "pageNumberColor": "#FF0000",
+        "pageNumber": 29,
+        "pageLetter": "هَـمْـزَة",
+        "firstShape": "ءَا",
+        "firstExampleAr": [
+            {
+                "first": "",
+                "second": "آ",
+                "third": "دم"
+            }
+        ],
+        "firstExampleEn": "Adam",
+        "secondShape": "إِي",
+        "secondExampleAr": [
+            {
+                "first": "",
+                "second": "إِي",
+                "third": "ـدَاع"
+            }
+        ],
+        "secondExampleEn": "Deposit",
+        "thirdShape": "أُو",
+        "thirdExampleAr": [
+            {
+                "first": "كُ",
+                "second": "ـؤُو",
+                "third": "س"
+            }
+        ],
+        "thirdExampleEn": "Glasses"
+    }
+]
