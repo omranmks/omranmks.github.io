@@ -4,956 +4,956 @@
         "pageNumberColor": "#FF0000",
         "pageNumber": 1,
         "pageLetter": "أَلِـف",
-        "firstShape": "",
-        "firstExampleAr": [
+        "shape-1": "",
+        "ar-1": [
             {
-                "first": "",
-                "second": "",
-                "third": ""
+                "p-1": "",
+                "p-2": "",
+                "p-3": ""
             }
         ],
-        "firstExampleEn": "",
-        "secondShape": "",
-        "secondExampleAr": [
+        "en-1": "",
+        "shape-2": "",
+        "ar-2": [
             {
-                "first": "",
-                "second": "",
-                "third": ""
+                "p-1": "",
+                "p-2": "",
+                "p-3": ""
             }
         ],
-        "secondExampleEn": "",
-        "thirdShape": "",
-        "thirdExampleAr": [
+        "en-2": "",
+        "shape-3": "",
+        "ar-3": [
             {
-                "first": "",
-                "second": "",
-                "third": ""
+                "p-1": "",
+                "p-2": "",
+                "p-3": ""
             }
         ],
-        "thirdExampleEn": ""
+        "en-3": ""
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #bdd7ee",
         "pageNumberColor": "#FF0000",
         "pageNumber": 2,
         "pageLetter": "بَـا",
-        "firstShape": "بَـا",
-        "firstExampleAr": [
+        "shape-1": "بَـا",
+        "ar-1": [
             {
-                "first": "ثُـعْ",
-                "second": "ـبَـا",
-                "third": "ن"
+                "p-1": "ثُـعْ",
+                "p-2": "ـبَـا",
+                "p-3": "ن"
             }
         ],
-        "firstExampleEn": "Snake",
-        "secondShape": "بَـي",
-        "secondExampleAr": [
+        "en-1": "Snake",
+        "shape-2": "بِـي",
+        "ar-2": [
             {
-                "first": "كَ",
-                "second": "ـبِـي",
-                "third": "ـر"
+                "p-1": "كَ",
+                "p-2": "ـبِـي",
+                "p-3": "ـر"
             }
         ],
-        "secondExampleEn": "Old",
-        "thirdShape": "بَـو",
-        "thirdExampleAr": [
+        "en-2": "Old",
+        "shape-3": "بُـو",
+        "ar-3": [
             {
-                "first": "",
-                "second": "بُـو",
-                "third": "ق"
+                "p-1": "",
+                "p-2": "بُـو",
+                "p-3": "ق"
             }
         ],
-        "thirdExampleEn": "Horn"
+        "en-3": "Horn"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #bdd7ee",
         "pageNumberColor": "#FF0000",
         "pageNumber": 3,
         "pageLetter": "تَـا",
-        "firstShape": "تَـا",
-        "firstExampleAr": [
+        "shape-1": "تَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "تَـا",
-                "third": "ج"
+                "p-1": "",
+                "p-2": "تَـا",
+                "p-3": "ج"
             }
         ],
-        "firstExampleEn": "Crown",
-        "secondShape": "تِـي",
-        "secondExampleAr": [
+        "en-1": "Crown",
+        "shape-2": "تِـي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "تِـي",
-                "third": "ـن"
+                "p-1": "",
+                "p-2": "تِـي",
+                "p-3": "ـن"
             }
         ],
-        "secondExampleEn": "Fig",
-        "thirdShape": "تُـو",
-        "thirdExampleAr": [
+        "en-2": "Fig",
+        "shape-3": "تُـو",
+        "ar-3": [
             {
-                "first": "",
-                "second": "تُـو",
-                "third": "نـا"
+                "p-1": "",
+                "p-2": "تُـو",
+                "p-3": "نـا"
             }
         ],
-        "thirdExampleEn": "Tuna"
+        "en-3": "Tuna"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #bdd7ee",
         "pageNumberColor": "#FF0000",
         "pageNumber": 4,
         "pageLetter": "ثَـا",
-        "firstShape": "ثَـا",
-        "firstExampleAr": [
+        "shape-1": "ثَـا",
+        "ar-1": [
             {
-                "first": "تِـمْ",
-                "second": "ـثَـا",
-                "third": "ل"
+                "p-1": "تِـمْ",
+                "p-2": "ـثَـا",
+                "p-3": "ل"
             }
         ],
-        "firstExampleEn": "Statue",
-        "secondShape": "ثِـي",
-        "secondExampleAr": [
+        "en-1": "Statue",
+        "shape-2": "ثِـي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "ثِـي",
-                "third": "ـرَان"
+                "p-1": "",
+                "p-2": "ثِـي",
+                "p-3": "ـرَان"
             }
         ],
-        "secondExampleEn": "Bull",
-        "thirdShape": "ثُـو",
-        "thirdExampleAr": [
+        "en-2": "Bull",
+        "shape-3": "ثُـو",
+        "ar-3": [
             {
-                "first": "",
-                "second": "ثُـو",
-                "third": "م"
+                "p-1": "",
+                "p-2": "ثُـو",
+                "p-3": "م"
             }
         ],
-        "thirdExampleEn": "Garlic"
+        "en-3": "Garlic"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #ffe699",
         "pageNumberColor": "#FF0000",
         "pageNumber": 5,
         "pageLetter": "جـِيـم",
-        "firstShape": "جَـا",
-        "firstExampleAr": [
+        "shape-1": "جَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "جَـا",
-                "third": "مِـع"
+                "p-1": "",
+                "p-2": "جَـا",
+                "p-3": "مِـع"
             }
         ],
-        "firstExampleEn": "Mosque",
-        "secondShape": "جِـي",
-        "secondExampleAr": [
+        "en-1": "Mosque",
+        "shape-2": "جِـي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "جِـي",
-                "third": "ـرَان"
+                "p-1": "",
+                "p-2": "جِـي",
+                "p-3": "ـرَان"
             }
         ],
-        "secondExampleEn": "Neighbor",
-        "thirdShape": "جُـو",
-        "thirdExampleAr": [
+        "en-2": "Neighbor",
+        "shape-3": "جُـو",
+        "ar-3": [
             {
-                "first": "نُ",
-                "second": "ـجُـو",
-                "third": "م"
+                "p-1": "نُ",
+                "p-2": "ـجُـو",
+                "p-3": "م"
             }
         ],
-        "thirdExampleEn": "Stars"
+        "en-3": "Stars"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #ffe699",
         "pageNumberColor": "#FF0000",
         "pageNumber": 6,
         "pageLetter": "حَـا",
-        "firstShape": "حَـا",
-        "firstExampleAr": [
+        "shape-1": "حَـا",
+        "ar-1": [
             {
-                "first": "لِ",
-                "second": "ـحَـا",
-                "third": "ف"
+                "p-1": "لِ",
+                "p-2": "ـحَـا",
+                "p-3": "ف"
             }
         ],
-        "firstExampleEn": "Comforter",
-        "secondShape": "حِـي",
-        "secondExampleAr": [
+        "en-1": "Comforter",
+        "shape-2": "حِـي",
+        "ar-2": [
             {
-                "first": "نَ",
-                "second": "ـحِـي",
-                "third": "ـف"
+                "p-1": "نَ",
+                "p-2": "ـحِـي",
+                "p-3": "ـف"
             }
         ],
-        "secondExampleEn": "Thin",
-        "thirdShape": "حُـو",
-        "thirdExampleAr": [
+        "en-2": "Thin",
+        "shape-3": "حُـو",
+        "ar-3": [
             {
-                "first": "",
-                "second": "حُـو",
-                "third": "ت"
+                "p-1": "",
+                "p-2": "حُـو",
+                "p-3": "ت"
             }
         ],
-        "thirdExampleEn": "Whale"
+        "en-3": "Whale"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #ffe699",
         "pageNumberColor": "#133459",
         "pageNumber": 7,
         "pageLetter": "خَـا",
-        "firstShape": "خَـا",
-        "firstExampleAr": [
+        "shape-1": "خَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "خَـا",
-                "third": "تَـم"
+                "p-1": "",
+                "p-2": "خَـا",
+                "p-3": "تَـم"
             }
         ],
-        "firstExampleEn": "Ring",
-        "secondShape": "خِـي",
-        "secondExampleAr": [
+        "en-1": "Ring",
+        "shape-2": "خِـي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "خِـي",
-                "third": "ـطَـان"
+                "p-1": "",
+                "p-2": "خِـي",
+                "p-3": "ـطَـان"
             }
         ],
-        "secondExampleEn": "Threads",
-        "thirdShape": "خُـو",
-        "thirdExampleAr": [
+        "en-2": "Threads",
+        "shape-3": "خُـو",
+        "ar-3": [
             {
-                "first": "صُ",
-                "second": "ـخُـو",
-                "third": "ر"
+                "p-1": "صُ",
+                "p-2": "ـخُـو",
+                "p-3": "ر"
             }
         ],
-        "thirdExampleEn": "Rocks"
+        "en-3": "Rocks"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #f8ccad",
         "pageNumberColor": "#FF0000",
         "pageNumber": 8,
         "pageLetter": "دَال",
-        "firstShape": "دَا",
-        "firstExampleAr": [
+        "shape-1": "دَا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "دَا",
-                "third": "ر"
+                "p-1": "",
+                "p-2": "دَا",
+                "p-3": "ر"
             }
         ],
-        "firstExampleEn": "Home",
-        "secondShape": "دِي",
-        "secondExampleAr": [
+        "en-1": "Home",
+        "shape-2": "دِي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "دِي",
-                "third": "ـك"
+                "p-1": "",
+                "p-2": "دِي",
+                "p-3": "ـك"
             }
         ],
-        "secondExampleEn": "Cock",
-        "thirdShape": "دُو",
-        "thirdExampleAr": [
+        "en-2": "Cock",
+        "shape-3": "دُو",
+        "ar-3": [
             {
-                "first": "صَـنْ",
-                "second": "ـدُو",
-                "third": "ق"
+                "p-1": "صَـنْ",
+                "p-2": "ـدُو",
+                "p-3": "ق"
             }
         ],
-        "thirdExampleEn": "Box"
+        "en-3": "Box"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #f8ccad",
         "pageNumberColor": "#FF0000",
         "pageNumber": 9,
         "pageLetter": "ذَال",
-        "firstShape": "دَا",
-        "firstExampleAr": [
+        "shape-1": "دَا",
+        "ar-1": [
             {
-                "first": "حِ",
-                "second": "ـذَا",
-                "third": "ء"
+                "p-1": "حِ",
+                "p-2": "ـذَا",
+                "p-3": "ء"
             }
         ],
-        "firstExampleEn": "Shoes",
-        "secondShape": "ذِي",
-        "secondExampleAr": [
+        "en-1": "Shoes",
+        "shape-2": "ذِي",
+        "ar-2": [
             {
-                "first": "مُ",
-                "second": "ـذِيـ",
-                "third": "ع"
+                "p-1": "مُ",
+                "p-2": "ـذِيـ",
+                "p-3": "ع"
             }
         ],
-        "secondExampleEn": "Announcer",
-        "thirdShape": "ذُو",
-        "thirdExampleAr": [
+        "en-2": "Announcer",
+        "shape-3": "ذُو",
+        "ar-3": [
             {
-                "first": "بُ",
-                "second": "ـذُو",
-                "third": "ر"
+                "p-1": "بُ",
+                "p-2": "ـذُو",
+                "p-3": "ر"
             }
         ],
-        "thirdExampleEn": "Seeds"
+        "en-3": "Seeds"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #bf910a",
         "pageNumberColor": "#FF0000",
         "pageNumber": 10,
         "pageLetter": "رَا",
-        "firstShape": "رَا",
-        "firstExampleAr": [
+        "shape-1": "رَا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "رَا",
-                "third": "كُـون"
+                "p-1": "",
+                "p-2": "رَا",
+                "p-3": "كُـون"
             }
         ],
-        "firstExampleEn": "Raccoon",
-        "secondShape": "رِي",
-        "secondExampleAr": [
+        "en-1": "Raccoon",
+        "shape-2": "رِي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "رِي",
-                "third": "ـشَـة"
+                "p-1": "",
+                "p-2": "رِي",
+                "p-3": "ـشَـة"
             }
         ],
-        "secondExampleEn": "Feather",
-        "thirdShape": "رُو",
-        "thirdExampleAr": [
+        "en-2": "Feather",
+        "shape-3": "رُو",
+        "ar-3": [
             {
-                "first": "حُ",
-                "second": "ـرُو",
-                "third": "ف"
+                "p-1": "حُ",
+                "p-2": "ـرُو",
+                "p-3": "ف"
             }
         ],
-        "thirdExampleEn": "Letters"
+        "en-3": "Letters"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #bf910a",
         "pageNumberColor": "#FF0000",
         "pageNumber": 11,
         "pageLetter": "زَاي",
-        "firstShape": "زَا",
-        "firstExampleAr": [
+        "shape-1": "زَا",
+        "ar-1": [
             {
-                "first": "غَ",
-                "second": "ـزَا",
-                "third": "ل"
+                "p-1": "غَ",
+                "p-2": "ـزَا",
+                "p-3": "ل"
             }
         ],
-        "firstExampleEn": "Deer",
-        "secondShape": "زِي",
-        "secondExampleAr": [
+        "en-1": "Deer",
+        "shape-2": "زِي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "زِي",
-                "third": "ـنَـة"
+                "p-1": "",
+                "p-2": "زِي",
+                "p-3": "ـنَـة"
             }
         ],
-        "secondExampleEn": "Decoration",
-        "thirdShape": "زُو",
-        "thirdExampleAr": [
+        "en-2": "Decoration",
+        "shape-3": "زُو",
+        "ar-3": [
             {
-                "first": "حَـلَ",
-                "second": "ـزُو",
-                "third": "ن"
+                "p-1": "حَـلَ",
+                "p-2": "ـزُو",
+                "p-3": "ن"
             }
         ],
-        "thirdExampleEn": "Snail"
+        "en-3": "Snail"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #d6dce5",
         "pageNumberColor": "#FF0000",
         "pageNumber": 12,
         "pageLetter": "سِـيـن",
-        "firstShape": "سَـا",
-        "firstExampleAr": [
+        "shape-1": "سَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "سَـا",
-                "third": "عَـة"
+                "p-1": "",
+                "p-2": "سَـا",
+                "p-3": "عَـة"
             }
         ],
-        "firstExampleEn": "Watch",
-        "secondShape": "سِـي",
-        "secondExampleAr": [
+        "en-1": "Watch",
+        "shape-2": "سِـي",
+        "ar-2": [
             {
-                "first": "كُـرْ",
-                "second": "سِـي",
-                "third": ""
+                "p-1": "كُـرْ",
+                "p-2": "سِـي",
+                "p-3": ""
             }
         ],
-        "secondExampleEn": "Chair",
-        "thirdShape": "سُـو",
-        "thirdExampleAr": [
+        "en-2": "Chair",
+        "shape-3": "سُـو",
+        "ar-3": [
             {
-                "first": "",
-                "second": "سُـو",
-                "third": "ر"
+                "p-1": "",
+                "p-2": "سُـو",
+                "p-3": "ر"
             }
         ],
-        "thirdExampleEn": "Fence"
+        "en-3": "Fence"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #d6dce5",
         "pageNumberColor": "#FF0000",
         "pageNumber": 13,
         "pageLetter": "شِـيـن",
-        "firstShape": "شَـا",
-        "firstExampleAr": [
+        "shape-1": "شَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "شَـا",
-                "third": "طِـئ"
+                "p-1": "",
+                "p-2": "شَـا",
+                "p-3": "طِـئ"
             }
         ],
-        "firstExampleEn": "Beach",
-        "secondShape": "شِـي",
-        "secondExampleAr": [
+        "en-1": "Beach",
+        "shape-2": "شِـي",
+        "ar-2": [
             {
-                "first": "طَـبَـا",
-                "second": "شِـي",
-                "third": "ـر"
+                "p-1": "طَـبَـا",
+                "p-2": "شِـي",
+                "p-3": "ـر"
             }
         ],
-        "secondExampleEn": "Chalk",
-        "thirdShape": "شُـو",
-        "thirdExampleAr": [
+        "en-2": "Chalk",
+        "shape-3": "شُـو",
+        "ar-3": [
             {
-                "first": "قُ",
-                "second": "ـشُـو",
-                "third": "ر"
+                "p-1": "قُ",
+                "p-2": "ـشُـو",
+                "p-3": "ر"
             }
         ],
-        "thirdExampleEn": "Peel"
+        "en-3": "Peel"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #2f5598",
         "pageNumberColor": "#133459",
         "pageNumber": 14,
         "pageLetter": "صَـاد",
-        "firstShape": "صَا",
-        "firstExampleAr": [
+        "shape-1": "صَا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "صَـا",
-                "third": "رُوخ"
+                "p-1": "",
+                "p-2": "صَـا",
+                "p-3": "رُوخ"
             }
         ],
-        "firstExampleEn": "Rocket",
-        "secondShape": "صِي",
-        "secondExampleAr": [
+        "en-1": "Rocket",
+        "shape-2": "صِي",
+        "ar-2": [
             {
-                "first": "رَ",
-                "second": "صِـي",
-                "third": "ـف"
+                "p-1": "رَ",
+                "p-2": "صِـي",
+                "p-3": "ـف"
             }
         ],
-        "secondExampleEn": "Sidewalk",
-        "thirdShape": "صُو",
-        "thirdExampleAr": [
+        "en-2": "Sidewalk",
+        "shape-3": "صُو",
+        "ar-3": [
             {
-                "first": "",
-                "second": "صُـو",
-                "third": "رَة"
+                "p-1": "",
+                "p-2": "صُـو",
+                "p-3": "رَة"
             }
         ],
-        "thirdExampleEn": "Picture"
+        "en-3": "Picture"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #2f5598",
         "pageNumberColor": "#133459",
         "pageNumber": 15,
         "pageLetter": "ضَـاد",
-        "firstShape": "ضَا",
-        "firstExampleAr": [
+        "shape-1": "ضَا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "ضَـا",
-                "third": "بِـط"
+                "p-1": "",
+                "p-2": "ضَـا",
+                "p-3": "بِـط"
             }
         ],
-        "firstExampleEn": "Officer",
-        "secondShape": "ضِي",
-        "secondExampleAr": [
+        "en-1": "Officer",
+        "shape-2": "ضِي",
+        "ar-2": [
             {
-                "first": "رَ",
-                "second": "ضِـي",
-                "third": "ـع"
+                "p-1": "رَ",
+                "p-2": "ضِـي",
+                "p-3": "ـع"
             }
         ],
-        "secondExampleEn": "Infant",
-        "thirdShape": "ضُو",
-        "thirdExampleAr": [
+        "en-2": "Infant",
+        "shape-3": "ضُو",
+        "ar-3": [
             {
-                "first": "وُ",
-                "second": "ضُـو",
-                "third": "ء"
+                "p-1": "وُ",
+                "p-2": "ضُـو",
+                "p-3": "ء"
             }
         ],
-        "thirdExampleEn": "Wudu"
+        "en-3": "Wudu"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #203863",
         "pageNumberColor": "#133459",
         "pageNumber": 16,
         "pageLetter": "طَـا",
-        "firstShape": "طَـا",
-        "firstExampleAr": [
+        "shape-1": "طَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "طَـا",
-                "third": "ئِـرَة"
+                "p-1": "",
+                "p-2": "طَـا",
+                "p-3": "ئِـرَة"
             }
         ],
-        "firstExampleEn": "Plane",
-        "secondShape": "طِـي",
-        "secondExampleAr": [
+        "en-1": "Plane",
+        "shape-2": "طِـي",
+        "ar-2": [
             {
-                "first": "بَ",
-                "second": "ـطِـي",
-                "third": "ء"
+                "p-1": "بَ",
+                "p-2": "ـطِـي",
+                "p-3": "ء"
             }
         ],
-        "secondExampleEn": "Slow",
-        "thirdShape": "طُـو",
-        "thirdExampleAr": [
+        "en-2": "Slow",
+        "shape-3": "طُـو",
+        "ar-3": [
             {
-                "first": "فَ",
-                "second": "ـطُـو",
-                "third": "ر"
+                "p-1": "فَ",
+                "p-2": "ـطُـو",
+                "p-3": "ر"
             }
         ],
-        "thirdExampleEn": "Breakfast"
+        "en-3": "Breakfast"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #203863",
         "pageNumberColor": "#133459",
         "pageNumber": 17,
         "pageLetter": "ظَـا",
-        "firstShape": "ظَـا",
-        "firstExampleAr": [
+        "shape-1": "ظَـا",
+        "ar-1": [
             {
-                "first": "مِـنْ",
-                "second": "ـظَـا",
-                "third": "ر"
+                "p-1": "مِـنْ",
+                "p-2": "ـظَـا",
+                "p-3": "ر"
             }
         ],
-        "firstExampleEn": "Telescope",
-        "secondShape": "ظِـي",
-        "secondExampleAr": [
+        "en-1": "Telescope",
+        "shape-2": "ظِـي",
+        "ar-2": [
             {
-                "first": "حَ",
-                "second": "ـظِـي",
-                "third": "ـرَة"
+                "p-1": "حَ",
+                "p-2": "ـظِـي",
+                "p-3": "ـرَة"
             }
         ],
-        "secondExampleEn": "Stable",
-        "thirdShape": "ظُـو",
-        "thirdExampleAr": [
+        "en-2": "Stable",
+        "shape-3": "ظُـو",
+        "ar-3": [
             {
-                "first": "مَـحْ",
-                "second": "ـظُـو",
-                "third": "ر"
+                "p-1": "مَـحْ",
+                "p-2": "ـظُـو",
+                "p-3": "ر"
             }
         ],
-        "thirdExampleEn": "Forbidden"
+        "en-3": "Forbidden"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #afabab",
         "pageNumberColor": "#FF0000",
         "pageNumber": 18,
         "pageLetter": "عَـيْـن",
-        "firstShape": "عَـا",
-        "firstExampleAr": [
+        "shape-1": "عَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "عَـا",
-                "third": "مِـل"
+                "p-1": "",
+                "p-2": "عَـا",
+                "p-3": "مِـل"
             }
         ],
-        "firstExampleEn": "Worker",
-        "secondShape": "عِـي",
-        "secondExampleAr": [
+        "en-1": "Worker",
+        "shape-2": "عِـي",
+        "ar-2": [
             {
-                "first": "بَ",
-                "second": "ـعِـي",
-                "third": "ـد"
+                "p-1": "بَ",
+                "p-2": "ـعِـي",
+                "p-3": "ـد"
             }
         ],
-        "secondExampleEn": "Far",
-        "thirdShape": "عُـو",
-        "thirdExampleAr": [
+        "en-2": "Far",
+        "shape-3": "عُـو",
+        "ar-3": [
             {
-                "first": "بَ",
-                "second": "ـعُـو",
-                "third": "ضَـة"
+                "p-1": "بَ",
+                "p-2": "ـعُـو",
+                "p-3": "ضَـة"
             }
         ],
-        "thirdExampleEn": "Mosquito"
+        "en-3": "Mosquito"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #afabab",
         "pageNumberColor": "#133459",
         "pageNumber": 19,
         "pageLetter": "غَـيْـن",
-        "firstShape": "غَـا",
-        "firstExampleAr": [
+        "shape-1": "غَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "غَـا",
-                "third": "بَـة"
+                "p-1": "",
+                "p-2": "غَـا",
+                "p-3": "بَـة"
             }
         ],
-        "firstExampleEn": "Forrest",
-        "secondShape": "غِـي",
-        "secondExampleAr": [
+        "en-1": "Forrest",
+        "shape-2": "غِـي",
+        "ar-2": [
             {
-                "first": "رَ",
-                "second": "غِـي",
-                "third": "ـف"
+                "p-1": "رَ",
+                "p-2": "غِـي",
+                "p-3": "ـف"
             }
         ],
-        "secondExampleEn": "Bread",
-        "thirdShape": "غُـو",
-        "thirdExampleAr": [
+        "en-2": "Bread",
+        "shape-3": "غُـو",
+        "ar-3": [
             {
-                "first": "يَ",
-                "second": "ـغُـو",
-                "third": "ص"
+                "p-1": "يَ",
+                "p-2": "ـغُـو",
+                "p-3": "ص"
             }
         ],
-        "thirdExampleEn": "Dive"
+        "en-3": "Dive"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #f7ad7c",
         "pageNumberColor": "#FF0000",
         "pageNumber": 20,
         "pageLetter": "فَـا",
-        "firstShape": "فَـا",
-        "firstExampleAr": [
+        "shape-1": "فَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "فَـا",
-                "third": "رِس"
+                "p-1": "",
+                "p-2": "فَـا",
+                "p-3": "رِس"
             }
         ],
-        "firstExampleEn": "knight",
-        "secondShape": "فِـي",
-        "secondExampleAr": [
+        "en-1": "knight",
+        "shape-2": "فِـي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "فِـي",
-                "third": "ـل"
+                "p-1": "",
+                "p-2": "فِـي",
+                "p-3": "ـل"
             }
         ],
-        "secondExampleEn": "Elephant",
-        "thirdShape": "فُـو",
-        "thirdExampleAr": [
+        "en-2": "Elephant",
+        "shape-3": "فُـو",
+        "ar-3": [
             {
-                "first": "سَـنْ",
-                "second": "ـفُـو",
-                "third": "ر"
+                "p-1": "سَـنْ",
+                "p-2": "ـفُـو",
+                "p-3": "ر"
             }
         ],
-        "thirdExampleEn": "Smurfs"
+        "en-3": "Smurfs"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #f7ad7c",
         "pageNumberColor": "#133459",
         "pageNumber": 21,
         "pageLetter": "قَـاف",
-        "firstShape": "قَـا",
-        "firstExampleAr": [
+        "shape-1": "قَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "قَـا",
-                "third": "فِـلَـة"
+                "p-1": "",
+                "p-2": "قَـا",
+                "p-3": "فِـلَـة"
             }
         ],
-        "firstExampleEn": "knight",
-        "secondShape": "قِـي",
-        "secondExampleAr": [
+        "en-1": "knight",
+        "shape-2": "قِـي",
+        "ar-2": [
             {
-                "first": "حَ",
-                "second": "قِـي",
-                "third": "ـبَـة"
+                "p-1": "حَ",
+                "p-2": "قِـي",
+                "p-3": "ـبَـة"
             }
         ],
-        "secondExampleEn": "Bag",
-        "thirdShape": "قُـو",
-        "thirdExampleAr": [
+        "en-2": "Bag",
+        "shape-3": "قُـو",
+        "ar-3": [
             {
-                "first": "يَ",
-                "second": "ـقُـو",
-                "third": "د"
+                "p-1": "يَ",
+                "p-2": "ـقُـو",
+                "p-3": "د"
             }
         ],
-        "thirdExampleEn": "Driver"
+        "en-3": "Driver"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #673a8e",
         "pageNumberColor": "#FF0000",
         "pageNumber": 22,
         "pageLetter": "كَـاف",
-        "firstShape": "كَـا",
-        "firstExampleAr": [
+        "shape-1": "كَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "كَـا",
-                "third": "تِـب"
+                "p-1": "",
+                "p-2": "كَـا",
+                "p-3": "تِـب"
             }
         ],
-        "firstExampleEn": "Writer",
-        "secondShape": "كِـي",
-        "secondExampleAr": [
+        "en-1": "Writer",
+        "shape-2": "كِـي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "كِـي",
-                "third": "ـوِي"
+                "p-1": "",
+                "p-2": "كِـي",
+                "p-3": "ـوِي"
             }
         ],
-        "secondExampleEn": "Kiwi",
-        "thirdShape": "كُـو",
-        "thirdExampleAr": [
+        "en-2": "Kiwi",
+        "shape-3": "كُـو",
+        "ar-3": [
             {
-                "first": "رُ",
-                "second": "كُـو",
-                "third": "ع"
+                "p-1": "رُ",
+                "p-2": "كُـو",
+                "p-3": "ع"
             }
         ],
-        "thirdExampleEn": "Bow"
+        "en-3": "Bow"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #27ade4",
         "pageNumberColor": "#FF0000",
         "pageNumber": 23,
         "pageLetter": "لَام",
-        "firstShape": "لَا",
-        "firstExampleAr": [
+        "shape-1": "لَا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "لَا",
-                "third": "عِـب"
+                "p-1": "",
+                "p-2": "لَا",
+                "p-3": "عِـب"
             }
         ],
-        "firstExampleEn": "Player",
-        "secondShape": "لِـي",
-        "secondExampleAr": [
+        "en-1": "Player",
+        "shape-2": "لِـي",
+        "ar-2": [
             {
-                "first": "حَ",
-                "second": "لِـي",
-                "third": "ـب"
+                "p-1": "حَ",
+                "p-2": "لِـي",
+                "p-3": "ـب"
             }
         ],
-        "secondExampleEn": "Milk",
-        "thirdShape": "لُـو",
-        "thirdExampleAr": [
+        "en-2": "Milk",
+        "shape-3": "لُـو",
+        "ar-3": [
             {
-                "first": "قُ",
-                "second": "ـلُـو",
-                "third": "ب"
+                "p-1": "قُ",
+                "p-2": "ـلُـو",
+                "p-3": "ب"
             }
         ],
-        "thirdExampleEn": "Hearts"
+        "en-3": "Hearts"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #29a951",
         "pageNumberColor": "#FF0000",
         "pageNumber": 24,
         "pageLetter": "مِـيـم",
-        "firstShape": "مَـا",
-        "firstExampleAr": [
+        "shape-1": "مَـا",
+        "ar-1": [
             {
-                "first": "ثِ",
-                "second": "ـمَـا",
-                "third": "ر"
+                "p-1": "ثِ",
+                "p-2": "ـمَـا",
+                "p-3": "ر"
             }
         ],
-        "firstExampleEn": "Fruit",
-        "secondShape": "مِـي",
-        "secondExampleAr": [
+        "en-1": "Fruit",
+        "shape-2": "مِـي",
+        "ar-2": [
             {
-                "first": "قَ",
-                "second": "ـمِـي",
-                "third": "ـص"
+                "p-1": "قَ",
+                "p-2": "ـمِـي",
+                "p-3": "ـص"
             }
         ],
-        "secondExampleEn": "Shirt",
-        "thirdShape": "مُـو",
-        "thirdExampleAr": [
+        "en-2": "Shirt",
+        "shape-3": "مُـو",
+        "ar-3": [
             {
-                "first": "لَـيْ",
-                "second": "ـمُـو",
-                "third": "ن"
+                "p-1": "لَـيْ",
+                "p-2": "ـمُـو",
+                "p-3": "ن"
             }
         ],
-        "thirdExampleEn": "Lemon"
+        "en-3": "Lemon"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #385725",
         "pageNumberColor": "#FF0000",
         "pageNumber": 25,
         "pageLetter": "نُـون",
-        "firstShape": "نَـا",
-        "firstExampleAr": [
+        "shape-1": "نَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "نَـا",
-                "third": "فِـذَة"
+                "p-1": "",
+                "p-2": "نَـا",
+                "p-3": "فِـذَة"
             }
         ],
-        "firstExampleEn": "Window",
-        "secondShape": "نِـي",
-        "secondExampleAr": [
+        "en-1": "Window",
+        "shape-2": "نِـي",
+        "ar-2": [
             {
-                "first": "أَ",
-                "second": "نِـي",
-                "third": "ـق"
+                "p-1": "أَ",
+                "p-2": "نِـي",
+                "p-3": "ـق"
             }
         ],
-        "secondExampleEn": "Chic",
-        "thirdShape": "نُـو",
-        "thirdExampleAr": [
+        "en-2": "Chic",
+        "shape-3": "نُـو",
+        "ar-3": [
             {
-                "first": "جُ",
-                "second": "ـنُـو",
-                "third": "د"
+                "p-1": "جُ",
+                "p-2": "ـنُـو",
+                "p-3": "د"
             }
         ],
-        "thirdExampleEn": "Soldiers"
+        "en-3": "Soldiers"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #fab613",
         "pageNumberColor": "#FF0000",
         "pageNumber": 26,
         "pageLetter": "هَـا",
-        "firstShape": "هَـا",
-        "firstExampleAr": [
+        "shape-1": "هَـا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "هَـا",
-                "third": "تِـف"
+                "p-1": "",
+                "p-2": "هَـا",
+                "p-3": "تِـف"
             }
         ],
-        "firstExampleEn": "Telephone",
-        "secondShape": "هِـي",
-        "secondExampleAr": [
+        "en-1": "Telephone",
+        "shape-2": "هِـي",
+        "ar-2": [
             {
-                "first": "بَ",
-                "second": "ـهِـي",
-                "third": "ـمَـة"
+                "p-1": "بَ",
+                "p-2": "ـهِـي",
+                "p-3": "ـمَـة"
             }
         ],
-        "secondExampleEn": "Animal",
-        "thirdShape": "هُـو",
-        "thirdExampleAr": [
+        "en-2": "Animal",
+        "shape-3": "هُـو",
+        "ar-3": [
             {
-                "first": "تَـطْ",
-                "second": "هُـو",
-                "third": ""
+                "p-1": "تَـطْ",
+                "p-2": "هُـو",
+                "p-3": ""
             }
         ],
-        "thirdExampleEn": "Cook"
+        "en-3": "Cook"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #b6db9a",
         "pageNumberColor": "#FF0000",
         "pageNumber": 27,
         "pageLetter": "وَاو",
-        "firstShape": "وَا",
-        "firstExampleAr": [
+        "shape-1": "وَا",
+        "ar-1": [
             {
-                "first": "دَ",
-                "second": "وَا",
-                "third": "ء"
+                "p-1": "دَ",
+                "p-2": "وَا",
+                "p-3": "ء"
             }
         ],
-        "firstExampleEn": "Medicine",
-        "secondShape": "وِي",
-        "secondExampleAr": [
+        "en-1": "Medicine",
+        "shape-2": "وِي",
+        "ar-2": [
             {
-                "first": "تَـلْ",
-                "second": "ـوِي",
-                "third": "ـن"
+                "p-1": "تَـلْ",
+                "p-2": "ـوِي",
+                "p-3": "ـن"
             }
         ],
-        "secondExampleEn": "Colors",
-        "thirdShape": "وُو",
-        "thirdExampleAr": [
+        "en-2": "Colors",
+        "shape-3": "وُو",
+        "ar-3": [
             {
-                "first": "طَـا",
-                "second": "وُو",
-                "third": "س"
+                "p-1": "طَـا",
+                "p-2": "وُو",
+                "p-3": "س"
             }
         ],
-        "thirdExampleEn": "Peacock"
+        "en-3": "Peacock"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #ffec00",
         "pageNumberColor": "#FF0000",
         "pageNumber": 28,
         "pageLetter": "يَـا",
-        "firstShape": "يَـا",
-        "firstExampleAr": [
+        "shape-1": "يَـا",
+        "ar-1": [
             {
-                "first": "مِ",
-                "second": "ـيَـا",
-                "third": "ه"
+                "p-1": "مِ",
+                "p-2": "ـيَـا",
+                "p-3": "ه"
             }
         ],
-        "firstExampleEn": "Water",
-        "secondShape": "يِـي",
-        "secondExampleAr": [
+        "en-1": "Water",
+        "shape-2": "يِـي",
+        "ar-2": [
             {
-                "first": "تَـشْ",
-                "second": "ـيِـي",
-                "third": "ـد"
+                "p-1": "تَـشْ",
+                "p-2": "ـيِـي",
+                "p-3": "ـد"
             }
         ],
-        "secondExampleEn": "Construction",
-        "thirdShape": "يُـو",
-        "thirdExampleAr": [
+        "en-2": "Construction",
+        "shape-3": "يُـو",
+        "ar-3": [
             {
-                "first": "طُ",
-                "second": "ـيُـو",
-                "third": "ر"
+                "p-1": "طُ",
+                "p-2": "ـيُـو",
+                "p-3": "ر"
             }
         ],
-        "thirdExampleEn": "Birds"
+        "en-3": "Birds"
     },
     {
         "borderColor": "inset 0px 0px 0px 1rem #cbc9e6",
         "pageNumberColor": "#FF0000",
         "pageNumber": 29,
         "pageLetter": "هَـمْـزَة",
-        "firstShape": "ءَا",
-        "firstExampleAr": [
+        "shape-1": "ءَا",
+        "ar-1": [
             {
-                "first": "",
-                "second": "آ",
-                "third": "دم"
+                "p-1": "",
+                "p-2": "آ",
+                "p-3": "دم"
             }
         ],
-        "firstExampleEn": "Adam",
-        "secondShape": "إِي",
-        "secondExampleAr": [
+        "en-1": "Adam",
+        "shape-2": "إِي",
+        "ar-2": [
             {
-                "first": "",
-                "second": "إِي",
-                "third": "ـدَاع"
+                "p-1": "",
+                "p-2": "إِي",
+                "p-3": "ـدَاع"
             }
         ],
-        "secondExampleEn": "Deposit",
-        "thirdShape": "أُو",
-        "thirdExampleAr": [
+        "en-2": "Deposit",
+        "shape-3": "أُو",
+        "ar-3": [
             {
-                "first": "كُ",
-                "second": "ـؤُو",
-                "third": "س"
+                "p-1": "كُ",
+                "p-2": "ـؤُو",
+                "p-3": "س"
             }
         ],
-        "thirdExampleEn": "Glasses"
+        "en-3": "Glasses"
     }
 ]
