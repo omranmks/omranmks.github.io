@@ -7,11 +7,13 @@ $(document).ready(function () {
     var layoutNum = 1;
     var letterIndex = 28;
     var check = false;
-    var audio = document.createElement('audio');
+    var audios = [];
+    audios['sound-110'] = new Audio('sounds/sound-110.mp3');
+    var audio = new Audio();
+    var allData;
+    $.getJSON("data.json",function (data) { allData = data;  });
     $("#PreviousContent").hide();
-
-
-
+ 
     $("input").change(function () {
         chageInput();
     });
@@ -35,8 +37,9 @@ $(document).ready(function () {
             ChangeLayout();
         }
         else {
+            audio.pause();
             audio.currentTime = 0;
-            audio.src = 'sounds/' + $(e.target).attr('data') + '.mp3';
+            audio = audios[$(e.target).attr('data')];
             audio.play();
         }
     });
@@ -91,60 +94,63 @@ $(document).ready(function () {
         ChangeData();
     }
     function ChangeData() {
-        $.getJSON("data.json",
-            function (data) {
-                if (pageIndex == 4 || pageIndex == 23) {
-                    $("#letter").css('margin-bottom', '1rem');
-                }
-                else {
-                    $("#letter").css('margin-bottom', '0.35rem');
-                }
-                if (pageIndex <= 28) {
-                    $("main").css('box-shadow', data[pageIndex].borderColor);
-                    $('.numBox .overlay').attr('data', 'sound-' + (pageIndex + 1) + '10');
-                    $("#headerPageNumberBackground").css('background-color', data[pageIndex].pageNumberColor);
-                    $("#headerPageNumber").text(data[pageIndex].pageNumber);
-                    $("#letter").text(data[pageIndex].pageLetter);
-                    for (var i = 1; i <= 3; i++) {
-                        $(".shapes:nth-child(" + i + ") .example .overlay:nth-child(1)").attr('data', 'sound-'+ (pageIndex + 1) + i + '2');
-                        $(".shapes:nth-child(" + i + ") .example .letterForm .overlay").attr('data', 'sound-'+ (pageIndex + 1) + i + '1');
-                        $("#pic-" + i).attr('src', 'images/pic-' + (pageIndex + 1) + '-' + i + '.jpg');
-                        $("#enWord-" + i).text(data[pageIndex]['en-' + i]);
-                        $("#shape-" + i).text(data[pageIndex]['shape-' + i]);
-                        for (var j = 1; j <= 3; j++) {
-                            $("#" + i + "-p" + j).text(data[pageIndex]['ar-' + i][0]['p-' + j]);
-                        }
-                    }
-                    $("#footerPageNumber").text('- ' + data[pageIndex].pageNumber + ' -');
-                }
-                else if (pageIndex <= 33) {
-                    $("main").css('box-shadow', "#afafaf 0px 0px 0px 1rem inset");
-                    for (var i = 0; i < 5; i++) {
-                        $("#" + (i + 1) + "-NumColor").css('background-color', data[pageIndex - letterIndex + i].pageNumberColor);
-                        $("#" + (i + 1) + "-NumColor").text(data[pageIndex - letterIndex + i].pageNumber);
-                        for (var j = 1; j <= 3; j++) {
-                            $('.eachShape:nth-child(' + (i + 1) +') .eachLetter:nth-child(' + j + ') .overlay').attr('data','sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1');
-                            $("#" + (i + 1) + "-" + j).text(data[pageIndex - letterIndex + i]['shape-' + j]);
-                        }
-                    }
-                    $("#footerPageNumber").text('- ' + (pageIndex + 1) + ' -');
+        if (pageIndex == 4 || pageIndex == 23) {
+            $("#letter").css('margin-bottom', '1rem');
+        }
+        else {
+            $("#letter").css('margin-bottom', '0.35rem');
+        }
+        if (pageIndex <= 28) {
+            $("main").css('box-shadow', allData[pageIndex].borderColor);
+            $('.numBox .overlay').attr('data', 'sound-' + (pageIndex + 1) + '10');
 
-                }
-                else if (pageIndex == 34) {
-                    $("main").css('box-shadow', "#afafaf 0px 0px 0px 1rem inset");
-                    for (var i = 0; i < 3; i++) {
-                        $("#" + (i + 1) + "-NumColor").css('background-color', data[pageIndex - letterIndex + i].pageNumberColor);
-                        $("#" + (i + 1) + "-NumColor").text(data[pageIndex - letterIndex + i].pageNumber);
-                        for (var j = 1; j <= 3; j++) {
-                            $('.eachShape:nth-child(' + (i + 1) +') .eachLetter:nth-child(' + j + ') .overlay').attr('data','sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1');
-                            $("#" + (i + 1) + "-" + j).text(data[pageIndex - letterIndex + i]['shape-' + j]);
-                        }
-                    }
-                    $("#footerPageNumber").text('- ' + (pageIndex + 1) + ' -');
+            audios['sound-' + (pageIndex + 1) + '10'] = new Audio('sounds/sound-' + (pageIndex + 1) + '10.mp3');
 
+            $("#headerPageNumberBackground").css('background-color', allData[pageIndex].pageNumberColor);
+            $("#headerPageNumber").text(allData[pageIndex].pageNumber);
+            $("#letter").text(allData[pageIndex].pageLetter);
+            for (var i = 1; i <= 3; i++) {
+                $(".shapes:nth-child(" + i + ") .example .overlay:nth-child(1)").attr('data', 'sound-' + (pageIndex + 1) + i + '2');
+                $(".shapes:nth-child(" + i + ") .example .letterForm .overlay").attr('data', 'sound-' + (pageIndex + 1) + i + '1');
+
+                audios['sound-' + (pageIndex + 1) + i + '1'] = new Audio('sounds/sound-' + (pageIndex + 1) + i + '1.mp3');
+                audios['sound-' + (pageIndex + 1) + i + '2'] = new Audio('sounds/sound-' + (pageIndex + 1) + i + '2.mp3');
+
+                $("#pic-" + i).attr('src', 'images/pic-' + (pageIndex + 1) + '-' + i + '.jpg');
+                $("#enWord-" + i).text(allData[pageIndex]['en-' + i]);
+                $("#shape-" + i).text(allData[pageIndex]['shape-' + i]);
+                for (var j = 1; j <= 3; j++) {
+                    $("#" + i + "-p" + j).text(allData[pageIndex]['ar-' + i][0]['p-' + j]);
                 }
             }
-        );
+            $("#footerPageNumber").text('- ' + allData[pageIndex].pageNumber + ' -');
+        }
+        else if (pageIndex <= 33) {
+            $("main").css('box-shadow', "#afafaf 0px 0px 0px 1rem inset");
+            for (var i = 0; i < 5; i++) {
+                $("#" + (i + 1) + "-NumColor").css('background-color', allData[pageIndex - letterIndex + i].pageNumberColor);
+                $("#" + (i + 1) + "-NumColor").text(allData[pageIndex - letterIndex + i].pageNumber);
+                for (var j = 1; j <= 3; j++) {
+                    $('.eachShape:nth-child(' + (i + 1) + ') .eachLetter:nth-child(' + j + ') .overlay').attr('data', 'sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1');
+                    $("#" + (i + 1) + "-" + j).text(allData[pageIndex - letterIndex + i]['shape-' + j]);
+                }
+            }
+            $("#footerPageNumber").text('- ' + (pageIndex + 1) + ' -');
+
+        }
+        else if (pageIndex == 34) {
+            $("main").css('box-shadow', "#afafaf 0px 0px 0px 1rem inset");
+            for (var i = 0; i < 3; i++) {
+                $("#" + (i + 1) + "-NumColor").css('background-color', allData[pageIndex - letterIndex + i].pageNumberColor);
+                $("#" + (i + 1) + "-NumColor").text(allData[pageIndex - letterIndex + i].pageNumber);
+                for (var j = 1; j <= 3; j++) {
+                    $('.eachShape:nth-child(' + (i + 1) + ') .eachLetter:nth-child(' + j + ') .overlay').attr('data', 'sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1');
+                    $("#" + (i + 1) + "-" + j).text(allData[pageIndex - letterIndex + i]['shape-' + j]);
+                }
+            }
+            $("#footerPageNumber").text('- ' + (pageIndex + 1) + ' -');
+
+        }
     }
     $("#NextContent").on("click", function () {
         if (pageIndex != 34) {
