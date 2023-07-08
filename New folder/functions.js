@@ -132,6 +132,9 @@ $(document).ready(function () {
                 $("#" + (i + 1) + "-NumColor").text(allData[pageIndex - letterIndex + i].pageNumber);
                 for (var j = 1; j <= 3; j++) {
                     $('.eachShape:nth-child(' + (i + 1) + ') .eachLetter:nth-child(' + j + ') .overlay').attr('data', 'sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1');
+
+                    audios['sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1'] = new Audio('sounds/sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1.mp3');
+
                     $("#" + (i + 1) + "-" + j).text(allData[pageIndex - letterIndex + i]['shape-' + j]);
                 }
             }
@@ -145,6 +148,9 @@ $(document).ready(function () {
                 $("#" + (i + 1) + "-NumColor").text(allData[pageIndex - letterIndex + i].pageNumber);
                 for (var j = 1; j <= 3; j++) {
                     $('.eachShape:nth-child(' + (i + 1) + ') .eachLetter:nth-child(' + j + ') .overlay').attr('data', 'sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1');
+                    
+                    audios['sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1'] = new Audio('sounds/sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1.mp3');
+                    
                     $("#" + (i + 1) + "-" + j).text(allData[pageIndex - letterIndex + i]['shape-' + j]);
                 }
             }
