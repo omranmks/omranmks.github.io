@@ -48,7 +48,7 @@ const secondLayout =
             </div>
         </div>
         <div class="example">
-            <div class="overlay"></div>
+            <div class="overlay" id="s-11"></div>
             <div class="arabicWord">
                 <h3>
                     <span id="1-p1"></span><span id="1-p2"
@@ -57,7 +57,7 @@ const secondLayout =
                 <span class="line"></span>
             </div>
             <div class="letterForm">
-                <div class="overlay"></div>
+                <div class="overlay" id="s-12"></div>
                 <h3 id="shape-1" class="redColor">بـا</h3>
                 <span class="line"></span>
             </div>
@@ -73,7 +73,7 @@ const secondLayout =
             </div>
         </div>
         <div class="example">
-            <div class="overlay"></div>
+            <div class="overlay" id="s-21"></div>
             <div class="arabicWord">
                 <h3>
                     <span id="2-p1"></span><span id="2-p2"
@@ -82,7 +82,7 @@ const secondLayout =
                 <span class="line"></span>
             </div>
             <div class="letterForm">
-                <div class="overlay"></div>
+                <div class="overlay" id="s-22"></div>
                 <h3 id="shape-2" class="greenColor">بـا</h3>
                 <span class="line"></span>
             </div>
@@ -98,7 +98,7 @@ const secondLayout =
             </div>
         </div>
         <div class="example">
-            <div class="overlay"></div>
+            <div class="overlay" id="s-31"></div>
             <div class="arabicWord">
                 <h3>
                     <span id="3-p1"></span><span id="3-p2"
@@ -107,7 +107,7 @@ const secondLayout =
                 <span class="line"></span>
             </div>
             <div class="letterForm">
-                <div class="overlay"></div>
+                <div class="overlay" id="s-32"></div>
                 <h3 id="shape-3" class="blueColor">بـا</h3>
                 <span class="line"></span>
             </div>

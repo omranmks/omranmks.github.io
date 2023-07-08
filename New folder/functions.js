@@ -7,34 +7,40 @@ $(document).ready(function () {
     var layoutNum = 1;
     var letterIndex = 28;
     var check = false;
+    var audio = document.createElement('audio');
     $("#PreviousContent").hide();
 
-    
+
 
     $("input").change(function () {
         chageInput();
     });
-    function chageInput(){
+    function chageInput() {
         check = !check;
-        if(check)
-        {
+        if (check) {
             $(".mainLayout").append(indexPage);
-            $(".indexPage").animate({opacity: 1},400);
+            $(".indexPage").animate({ opacity: 1 }, 400);
         }
-        else{
-            $(".indexPage").animate({opacity: 0},400,'swing',function() {
+        else {
+            $(".indexPage").animate({ opacity: 0 }, 400, 'swing', function () {
                 $(".indexPage").remove();
-            }); 
+            });
         }
     }
-    $(document).on('change', function () { 
-        $(".indexPage").on("click", ".overlay", function(e) {
+    $(document).on('click', ".overlay", function (e) {
+        if ($(e.target).attr('value') !== undefined) {
             pageIndex = parseInt($(e.target).attr('value'));
             $('input').prop('checked', false);
             $('input').trigger('change');
             ChangeLayout();
-        });  
-     });
+        }
+        else {
+            audio.currentTime = 0;
+            audio.src = 'sounds/' + $(e.target).attr('data') + '.mp3';
+            audio.play();
+        }
+    });
+
 
     function ChangeLayout() {
         if (pageIndex == 0) {
@@ -87,18 +93,21 @@ $(document).ready(function () {
     function ChangeData() {
         $.getJSON("data.json",
             function (data) {
-                if(pageIndex == 4 || pageIndex == 23){
-                    $("#letter").css('margin-bottom','1rem');
+                if (pageIndex == 4 || pageIndex == 23) {
+                    $("#letter").css('margin-bottom', '1rem');
                 }
-                else{
-                    $("#letter").css('margin-bottom','0.35rem');
+                else {
+                    $("#letter").css('margin-bottom', '0.35rem');
                 }
                 if (pageIndex <= 28) {
                     $("main").css('box-shadow', data[pageIndex].borderColor);
+                    $('.numBox .overlay').attr('data', 'sound-' + (pageIndex + 1) + '10');
                     $("#headerPageNumberBackground").css('background-color', data[pageIndex].pageNumberColor);
                     $("#headerPageNumber").text(data[pageIndex].pageNumber);
                     $("#letter").text(data[pageIndex].pageLetter);
                     for (var i = 1; i <= 3; i++) {
+                        $(".shapes:nth-child(" + i + ") .example .overlay:nth-child(1)").attr('data', 'sound-'+ (pageIndex + 1) + i + '2');
+                        $(".shapes:nth-child(" + i + ") .example .letterForm .overlay").attr('data', 'sound-'+ (pageIndex + 1) + i + '1');
                         $("#pic-" + i).attr('src', 'images/pic-' + (pageIndex + 1) + '-' + i + '.jpg');
                         $("#enWord-" + i).text(data[pageIndex]['en-' + i]);
                         $("#shape-" + i).text(data[pageIndex]['shape-' + i]);
@@ -114,6 +123,7 @@ $(document).ready(function () {
                         $("#" + (i + 1) + "-NumColor").css('background-color', data[pageIndex - letterIndex + i].pageNumberColor);
                         $("#" + (i + 1) + "-NumColor").text(data[pageIndex - letterIndex + i].pageNumber);
                         for (var j = 1; j <= 3; j++) {
+                            $('.eachShape:nth-child(' + (i + 1) +') .eachLetter:nth-child(' + j + ') .overlay').attr('data','sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1');
                             $("#" + (i + 1) + "-" + j).text(data[pageIndex - letterIndex + i]['shape-' + j]);
                         }
                     }
@@ -126,6 +136,7 @@ $(document).ready(function () {
                         $("#" + (i + 1) + "-NumColor").css('background-color', data[pageIndex - letterIndex + i].pageNumberColor);
                         $("#" + (i + 1) + "-NumColor").text(data[pageIndex - letterIndex + i].pageNumber);
                         for (var j = 1; j <= 3; j++) {
+                            $('.eachShape:nth-child(' + (i + 1) +') .eachLetter:nth-child(' + j + ') .overlay').attr('data','sound-' + (pageIndex - letterIndex + i + 1) + (4 - j) + '1');
                             $("#" + (i + 1) + "-" + j).text(data[pageIndex - letterIndex + i]['shape-' + j]);
                         }
                     }
